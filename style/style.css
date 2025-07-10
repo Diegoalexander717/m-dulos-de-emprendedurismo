@@ -1,0 +1,121 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #b3b2b2;
+}
+
+nav img {
+height: 70px;
+width: 80px;
+border-radius:100px;
+margin-top: 20px;
+
+}
+nav {
+  background-color: #333;
+  padding: 10px 0;
+
+  
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid rgb(236, 0, 0);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover,
+nav ul li a.activo {
+  background-color: #555;
+}
+
+main {
+  max-width: 900px;
+  margin: 45px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #4b81b7;
+  text-align: center;
+  
+}
+
+ul {
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
+.image, .banner {
+  width: 100%;
+  max-width: 1000px;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+.servicios-grid, .objetivos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #b5aeae;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.2s ease;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+  
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.contacto-box {
+  background: #c4c4c4;
+  padding: 20px;
+  border-left: 6px solid #2c3e50;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card  img{
+    height: 290px;
+width: 250px;
+border-radius:10px;
+
+}
